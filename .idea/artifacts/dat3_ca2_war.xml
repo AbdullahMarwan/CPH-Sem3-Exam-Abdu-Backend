@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="dat3_ca2-1.0.0.war">
+    <root id="archive" name="dat3_sem3exam-1.0.0.war">
       <element id="artifact" artifact-name="dat3_ca2:war exploded" />
     </root>
   </artifact>
