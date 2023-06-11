@@ -10,8 +10,98 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a6e78ab-3bb2-4f4e-a329-820c81f3d4f8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/mavenworkflow.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/mavenworkflow.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f7782470-c80a-4b43-80dd-d591f7e9d095.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f7782470-c80a-4b43-80dd-d591f7e9d095.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/META-INF/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/cors/CorsFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/dtos/RenameMeDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/entities/RenameMe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/entities/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/entities/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/errorhandling/API_Exception.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/errorhandling/API_ExceptionMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/errorhandling/ExceptionDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/errorhandling/GenericExceptionMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/errorhandling/NotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/facades/FacadeExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/facades/Populator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/facades/UserFacade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/rest/ApplicationConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/rest/DemoResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/rest/RenameMeResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/security/JWTAuthenticationFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/security/JWTSecurityContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/security/LoginEndpoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/security/RolesAllowedFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/security/SharedSecret.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/security/UserPrincipal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/security/errorhandling/AuthenticationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/security/errorhandling/AuthenticationExceptionMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/security/errorhandling/NotAuthorizedExceptionMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/utils/EMF_Creator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/utils/SetupTestUsers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/utils/Utility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/aopalliance-repackaged-2.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/backport-util-concurrent-3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/classworlds-1.1-alpha-2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/gson-2.8.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/hk2-api-2.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/hk2-locator-2.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/hk2-utils-2.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/jakarta.activation-1.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/jakarta.activation-api-1.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/jakarta.annotation-api-1.3.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/jakarta.inject-2.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/jakarta.json-1.1.6-module.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/jakarta.json-1.1.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/jakarta.json-api-1.1.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/jakarta.json.bind-api-1.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/jakarta.persistence-2.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/jakarta.validation-api-2.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/jakarta.ws.rs-api-2.1.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/jakarta.xml.bind-api-2.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/javassist-3.25.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/jaxrs-ri-2.32.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/jbcrypt-0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/jcip-annotations-1.0-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/jersey-client-2.32.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/jersey-common-2.32.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/jersey-container-servlet-2.32.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/jersey-container-servlet-core-2.32.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/jersey-hk2-2.32.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/jersey-media-jaxb-2.32.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/jersey-media-json-binding-2.32.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/jersey-media-sse-2.32.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/jersey-server-2.32.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/junit-3.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/maven-artifact-2.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/maven-artifact-manager-2.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/maven-model-2.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/maven-plugin-api-2.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/maven-plugin-registry-2.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/maven-profile-2.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/maven-project-2.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/maven-repository-metadata-2.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/maven-settings-2.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/mysql-connector-java-8.0.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/nimbus-jose-jwt-9.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/org.eclipse.persistence.antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/org.eclipse.persistence.asm-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/org.eclipse.persistence.core-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/org.eclipse.persistence.jpa-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/org.eclipse.persistence.jpa.jpql-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/osgi-resource-locator-1.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/plexus-container-default-1.0-alpha-9-stable-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/plexus-interpolation-1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/plexus-utils-3.0.22.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/properties-maven-plugin-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/protobuf-java-3.11.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/wagon-provider-api-1.0-beta-6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/lib/yasson-1.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,20 +133,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/.github/workflows" />
