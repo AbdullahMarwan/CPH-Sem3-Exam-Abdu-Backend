@@ -1140,42 +1140,154 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     <schema id="291" parent="1" name="performance_schema">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="292" parent="1" name="startcode">
+    <schema id="292" parent="1" name="sem3exam">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="293" parent="1" name="startcode_test">
+    <schema id="293" parent="1" name="startcode">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="294" parent="1" name="sys">
+    <schema id="294" parent="1" name="startcode_test">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="295" parent="1" name="trip_planner">
+    <schema id="295" parent="1" name="sys">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <user id="296" parent="1" name="dev">
+    <schema id="296" parent="1" name="trip_planner">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <user id="297" parent="1" name="dev">
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="297" parent="1" name="mysql.infoschema">
+    <user id="298" parent="1" name="mysql.infoschema">
       <CanLogin>0</CanLogin>
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="298" parent="1" name="mysql.session">
+    <user id="299" parent="1" name="mysql.session">
       <CanLogin>0</CanLogin>
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="299" parent="1" name="mysql.sys">
+    <user id="300" parent="1" name="mysql.sys">
       <CanLogin>0</CanLogin>
       <Host>localhost</Host>
-      <Plugin>caching_sha2_password</Plugin>
-    </user>
-    <user id="300" parent="1" name="root">
       <Plugin>caching_sha2_password</Plugin>
     </user>
     <user id="301" parent="1" name="root">
+      <Plugin>caching_sha2_password</Plugin>
+    </user>
+    <user id="302" parent="1" name="root">
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
+    <table id="303" parent="294" name="RENAMEME">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="304" parent="294" name="roles">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="305" parent="294" name="user_roles">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="306" parent="294" name="users">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <column id="307" parent="303" name="ID">
+      <AutoIncrement>1</AutoIncrement>
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="308" parent="303" name="DUMMYSTR1">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="309" parent="303" name="DUMMYSTR2">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <index id="310" parent="303" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="311" parent="303" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="312" parent="304" name="role_name">
+      <DasType>varchar(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <index id="313" parent="304" name="PRIMARY">
+      <ColNames>role_name</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="314" parent="304" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="315" parent="305" name="role_name">
+      <DasType>varchar(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="316" parent="305" name="user_name">
+      <DasType>varchar(25)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="317" parent="305" name="FK_user_roles_role_name">
+      <ColNames>role_name</ColNames>
+      <RefColNames>role_name</RefColNames>
+      <RefTableName>roles</RefTableName>
+    </foreign-key>
+    <foreign-key id="318" parent="305" name="FK_user_roles_user_name">
+      <ColNames>user_name</ColNames>
+      <RefColNames>user_name</RefColNames>
+      <RefTableName>users</RefTableName>
+    </foreign-key>
+    <index id="319" parent="305" name="PRIMARY">
+      <ColNames>role_name
+user_name</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="320" parent="305" name="FK_user_roles_user_name">
+      <ColNames>user_name</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="321" parent="305" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="322" parent="306" name="user_name">
+      <DasType>varchar(25)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="323" parent="306" name="user_pass">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <index id="324" parent="306" name="PRIMARY">
+      <ColNames>user_name</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="325" parent="306" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
   </database-model>
 </dataSource>
