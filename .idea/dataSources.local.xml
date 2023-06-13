@@ -12,8 +12,8 @@
       <schema-mapping>
         <introspection-scope>
           <node kind="schema">
-            <name qname="startcode" />
-            <name qname="startcode_test" />
+            <name qname="sem3exam" />
+            <name qname="sem3exam_test" />
           </node>
         </introspection-scope>
       </schema-mapping>
