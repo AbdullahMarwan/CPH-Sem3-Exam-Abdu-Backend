@@ -1,0 +1,13 @@
+POST http://localhost:8080/devops_starter_war_exploded/api/login
+Content-Length: 43
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"username": "user", "password": "test123"}
+
+<> 2023-06-12T230719.404.html
+
+###
+
