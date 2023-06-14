@@ -1,13 +1,17 @@
 package facades;
 
 import dtos.BookingDTO;
+import dtos.WashingAssistantDTO;
 import entities.Booking;
 import entities.Booking;
 import entities.Car;
+import entities.WashingAssistant;
 import utils.EMF_Creator;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityNotFoundException;
+import javax.persistence.TypedQuery;
 import java.util.List;
 
 public class BookingFacade {
@@ -51,6 +55,22 @@ public class BookingFacade {
         }
         return BookingDTO.getDTOs(bookings);
     }
+
+    /*
+    //Get bookingList by id
+    public List<BookingDTO> getBookingListByUsername(String user_name) {
+        EntityManager em = emf.createEntityManager();
+        List<Booking> bookings;
+        try {
+            bookings = em.createQuery("SELECT b FROM Booking b where b.user_name = :user_name", Booking.class).getResultList();
+            //bookings = em.createQuery("SELECT b FROM Booking b where b.user_name = :user_name", Booking.class).getResultList();
+        } finally {
+            em.close();
+        }
+        return BookingDTO.getDTOs(bookings);
+    }
+
+     */
 
     //Remove booking by id
     public BookingDTO removeBooking(Long id) {

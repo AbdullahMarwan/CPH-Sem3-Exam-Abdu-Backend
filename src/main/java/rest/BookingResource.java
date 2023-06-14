@@ -7,6 +7,7 @@ import facades.BookingFacade;
 import utils.EMF_Creator;
 
 import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityNotFoundException;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
@@ -31,6 +32,17 @@ public class BookingResource {
         BookingDTO returnedDTO = FACADE.createBooking(bookingDTO);
         return GSON.toJson(returnedDTO);
     }
+
+    /*
+    @GET
+    @Path("/{id}")
+    @Produces({MediaType.APPLICATION_JSON})
+    public Response getById(@PathParam("id") int id) throws EntityNotFoundException {
+        BookingDTO b = FACADE.getById(id);
+        return Response.ok().entity(GSON.toJson(b)).build();
+    }
+    
+     */
 
     @PUT
     @Produces("application/json")
