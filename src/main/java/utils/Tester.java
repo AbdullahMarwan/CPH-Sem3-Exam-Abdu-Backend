@@ -10,36 +10,39 @@ public class Tester {
 
     public static void main(String[] args) {
 
-        /*
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("pu");
         EntityManager em = emf.createEntityManager();
 
         User user1 = new User("NewUser", "test");
         User user2 = new User("NewAdmin", "test");
 
-        Role userRole = new Role("user");
-        Role adminRole = new Role("admin");
+//        Role userRole = new Role("user");
+//        Role adminRole = new Role("admin");
+//
+//        user1.addRole(userRole);
+//        user2.addRole(adminRole);
 
-        //TODO Replace the EntityType1 and EntityType2 with the ones from the domain model
-        EntityType1 entityType11 = new EntityType1("Param1", "Param2");
-        EntityType1 entityType12 = new EntityType1("Param1", "Param2");
+        WashingAssistant washingAssistant1 = new WashingAssistant("Tom","Danish","10 Years", "50DKK Hour");
+        WashingAssistant washingAssistant2 = new WashingAssistant("Ole","English","2 Years", "30DKK Hour");
 
-        EntityType2 entityType21 = new EntityType2("Param1", "Param2");
-        EntityType2 entityType22 = new EntityType2("Param1", "Param2");
+        Car car1 = new Car("2020", "Mercedes", "10", "2000");
+        Car car2 = new Car("3020", "Bugatti", "100", "3000");
 
-        user1.addRole(userRole);
-        user2.addRole(adminRole);
+        Booking booking1 = new Booking("10th June - 10:00", "10Min");
+        Booking booking2 = new Booking("23th February - 20:00", "1Hour");
 
         em.getTransaction().begin();
 
         em.persist(user1);
         em.persist(user2);
-        em.persist(userRole);
-        em.persist(adminRole);
-        em.persist(entityType11);
-        em.persist(entityType12);
-        em.persist(entityType21);
-        em.persist(entityType22);
+//        em.persist(userRole);
+//        em.persist(adminRole);
+        em.persist(washingAssistant1);
+        em.persist(washingAssistant2);
+        em.persist(car1);
+        em.persist(car2);
+        em.persist(booking1);
+        em.persist(booking2);
 
         em.getTransaction().commit();
 
@@ -47,16 +50,17 @@ public class Tester {
         System.out.println(user1);
         System.out.println(user2);
         System.out.println("");
-        System.out.println(entityType11);
-        System.out.println(entityType12);
+        System.out.println(washingAssistant1);
+        System.out.println(washingAssistant2);
         System.out.println("");
-        System.out.println(entityType21);
-        System.out.println(entityType22);
+        System.out.println(car1);
+        System.out.println(car2);
+        System.out.println("");
+        System.out.println(booking1);
+        System.out.println(booking2);
         System.out.println("");
 
         em.close();
-
-         */
     }
 
 }
