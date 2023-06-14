@@ -1,3 +1,83 @@
+GET http://localhost:8080/api/info/admin
+x-access-token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsInJvbGVzIjoiYWRtaW4iLCJleHAiOjE2ODE3MzIwODUsImlhdCI6MTY4MTczMDI4NSwiaXNzdWVyIjoic2VtZXN0ZXJzdGFydGNvZGUtZGF0MyIsInVzZXJuYW1lIjoiYWRtaW4ifQ.o5FI2XBOG3OE-FwLjFdBXiFpn9WcieNCWyZUNSK3VWw"
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-14T112643.404.html
+
+###
+
+GET http://localhost:8080/exam_test/api/info/admin
+x-access-token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsInJvbGVzIjoiYWRtaW4iLCJleHAiOjE2ODE3MzIwODUsImlhdCI6MTY4MTczMDI4NSwiaXNzdWVyIjoic2VtZXN0ZXJzdGFydGNvZGUtZGF0MyIsInVzZXJuYW1lIjoiYWRtaW4ifQ.o5FI2XBOG3OE-FwLjFdBXiFpn9WcieNCWyZUNSK3VWw"
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-14T112635.403.json
+
+###
+
+POST http://localhost:8080/exam_test/api/login
+Content-Type: application/json
+Content-Length: 50
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "admin",
+  "password": "test123"
+}
+
+<> 2023-06-14T112629.200.json
+
+###
+
+GET http://localhost:8080/exam_test/api/info/admin
+x-access-token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsInJvbGVzIjoiYWRtaW4iLCJleHAiOjE2ODE3MzIwODUsImlhdCI6MTY4MTczMDI4NSwiaXNzdWVyIjoic2VtZXN0ZXJzdGFydGNvZGUtZGF0MyIsInVzZXJuYW1lIjoiYWRtaW4ifQ.o5FI2XBOG3OE-FwLjFdBXiFpn9WcieNCWyZUNSK3VWw"
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-14T112623.403.json
+
+###
+
+POST http://localhost:8080/exam_test/api/login
+Content-Type: application/json
+Content-Length: 50
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "admin",
+  "password": "test123"
+}
+
+<> 2023-06-14T112611.200.json
+
+###
+
+GET http://localhost:8080/exam_test/api/info
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-14T112600.200.json
+
+###
+
+GET http://localhost:8080/exam_test//api/info
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-14T112528.200.json
+
+###
+
 POST http://localhost:8080/devops_starter_war_exploded/api/login
 Content-Length: 43
 Content-Type: */*; charset=UTF-8
