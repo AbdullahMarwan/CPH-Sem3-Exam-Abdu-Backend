@@ -9,7 +9,9 @@ public class Booking {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
     private Long id;
+    @Column(name="date_and_time")
     private String dateAndTime;
+    @Column(name="duration")
     private String duration;
 
     public Booking() {
@@ -28,4 +30,19 @@ public class Booking {
         this.id = id;
     }
 
+    public String getDateAndTime() {
+        return dateAndTime;
+    }
+
+    public void setDateAndTime(String dateAndTime) {
+        this.dateAndTime = dateAndTime;
+    }
+
+    public String getDuration() {
+        return duration;
+    }
+
+    public void setDuration(String duration) {
+        this.duration = duration;
+    }
 }
