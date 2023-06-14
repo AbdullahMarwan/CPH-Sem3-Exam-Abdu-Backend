@@ -23,8 +23,8 @@ public class BookingDTO {
 
     public BookingDTO(Booking booking) {
         this.id = booking.getId();
-        this.dateAndTime = getDateAndTime();
-        this.duration = getDuration();
+        this.dateAndTime = booking.getDateAndTime();
+        this.duration = booking.getDuration();
     }
 
     public BookingDTO(Long id, String dateAndTime, String duration) {
