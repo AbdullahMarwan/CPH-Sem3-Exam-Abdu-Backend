@@ -7,6 +7,7 @@ import utils.EMF_Creator;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityNotFoundException;
 import java.util.List;
 
 public class WashingAssistantFacade {
@@ -77,6 +78,16 @@ public class WashingAssistantFacade {
             em.close();
         }
         return new WashingAssistantDTO(washingAssistant);
+    }
+
+    //Get washingAssistant by id
+    public WashingAssistantDTO getById(Long id) throws EntityNotFoundException {
+        EntityManager em = emf.createEntityManager();
+        WashingAssistant w = em.find(WashingAssistant.class, id);
+        if (w == null)
+            throw new EntityNotFoundException("The WashingAssistant entity with ID: " + id + " Was not found");
+
+        return new WashingAssistantDTO(w);
     }
 
     //Edit washingAssistant

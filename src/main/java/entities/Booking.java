@@ -15,6 +15,7 @@ import java.util.List;
 @ToString
 
 @Entity
+@NamedQuery(name = "Booking.deleteAllRows", query = "DELETE from Booking")
 @Table(name = "booking")
 public class Booking {
     @Id
