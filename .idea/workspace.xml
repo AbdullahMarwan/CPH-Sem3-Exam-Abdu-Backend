@@ -10,12 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a6e78ab-3bb2-4f4e-a329-820c81f3d4f8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dtos/BookingDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dtos/BookingDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dtos/CarDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dtos/CarDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dtos/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dtos/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dtos/WashingAssistantDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dtos/WashingAssistantDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/facades/UserFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facades/UserFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Booking.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/Booking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/WashingAssistant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/WashingAssistant.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,7 @@
       <recent name="$PROJECT_DIR$/.github" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SetupTestUsers">
+  <component name="RunManager" selected="Application.WashingAssistantFacade">
     <configuration name="Populator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="facades.Populator" />
       <module name="dat3_ca2" />
@@ -104,6 +104,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WashingAssistantFacade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="facades.WashingAssistantFacade" />
+      <module name="dat3_ca2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="facades.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -227,6 +240,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.WashingAssistantFacade" />
       <item itemvalue="Application.Populator" />
       <item itemvalue="Application.SetupTestUsers" />
       <item itemvalue="HTTP Request.rest | #1" />
@@ -235,6 +249,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WashingAssistantFacade" />
         <item itemvalue="Application.SetupTestUsers" />
         <item itemvalue="JUnit.FacadeExampleTest" />
         <item itemvalue="Application.Populator" />
@@ -253,7 +268,7 @@
       <workItem from="1686393361359" duration="3353000" />
       <workItem from="1686650013852" duration="3022000" />
       <workItem from="1686722374855" duration="2682000" />
-      <workItem from="1686725392532" duration="2445000" />
+      <workItem from="1686725392532" duration="3869000" />
     </task>
     <servers />
   </component>
