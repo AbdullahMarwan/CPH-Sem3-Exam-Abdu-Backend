@@ -21,6 +21,7 @@ public class WashingAssistantResource {
     private static final WashingAssistantFacade FACADE = WashingAssistantFacade.getWashingAssistantFacade(EMF);
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
 
+    //US-1 List of all Washing Assistants
     @GET
     @Produces("application/json")
     @Path("all")

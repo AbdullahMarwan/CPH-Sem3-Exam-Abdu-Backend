@@ -40,6 +40,7 @@ public class WashingAssistantFacade {
         return new WashingAssistantDTO(washingAssistant);
     }
 
+    //US-1
     //Return list of all washingAssistants
     public List<WashingAssistantDTO> getWashingAssistants() {
         EntityManager em = emf.createEntityManager();

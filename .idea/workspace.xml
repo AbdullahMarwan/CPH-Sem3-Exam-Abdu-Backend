@@ -11,8 +11,17 @@
   <component name="ChangeListManager">
     <list default="true" id="1a6e78ab-3bb2-4f4e-a329-820c81f3d4f8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/facades/BookingFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facades/BookingFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/facades/WashingAssistantFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facades/WashingAssistantFacade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/rest/BookingResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/BookingResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest/WashingAssistantResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/WashingAssistantResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/facades/BookingFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/facades/BookingFacade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/facades/WashingAssistantFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/facades/WashingAssistantFacade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rest/BookingResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rest/BookingResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rest/WashingAssistantResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rest/WashingAssistantResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/facades/BookingFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/facades/BookingFacade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/facades/WashingAssistantFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/facades/WashingAssistantFacade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/rest/BookingResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/rest/BookingResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/rest/WashingAssistantResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/rest/WashingAssistantResource.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

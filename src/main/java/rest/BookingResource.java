@@ -25,6 +25,7 @@ public class BookingResource {
         return GSON.toJson(FACADE.getBookings());
     }
 
+    //US-2 List of all bookings of the user
     @GET
     @Produces("application/json")
     @Path("/{user_name}")
@@ -32,6 +33,7 @@ public class BookingResource {
         return GSON.toJson(FACADE.getBookingListByUsername(user_name));
     }
 
+    //US-7 Admin Delete bookings
     @DELETE
     @Produces("application/json")
     @Path("{id}")
