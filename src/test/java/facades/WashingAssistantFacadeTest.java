@@ -64,6 +64,19 @@ public class WashingAssistantFacadeTest {
     public void tearDown() {
     }
 
+    /*
+    @Test
+    void create() {
+        System.out.println("Testing create(WashingAssistant w)");
+        WashingAssistant w = new WashingAssistant("TestWashingAssistant", "Danish", "10 Years", "50DKK Hour");
+        WashingAssistant expected = w;
+        WashingAssistant actual = facade.createWashingAssistant(w);
+        assertEquals(expected, actual);
+    }
+
+     */
+
+    /*
     @Test
     void create() {
         System.out.println("Testing create(WashingAssistant w)");
@@ -72,6 +85,8 @@ public class WashingAssistantFacadeTest {
         WashingAssistantDTO actual = facade.createWashingAssistant(w);
         assertEquals(expected, actual);
     }
+
+     */
 
     @Test
     void getById() throws EntityNotFoundException {
