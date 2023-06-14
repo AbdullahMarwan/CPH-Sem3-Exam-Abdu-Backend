@@ -1,6 +1,8 @@
 package entities;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name = "booking")
@@ -13,6 +15,13 @@ public class Booking {
     private String dateAndTime;
     @Column(name="duration")
     private String duration;
+
+    @ManyToMany(mappedBy = "bookingList")
+    private List<WashingAssistant> washingAssistantList = new ArrayList<>();
+
+    @ManyToOne
+    @JoinColumn(name = "car_id")
+    private Car car;
 
     public Booking() {
     }
@@ -44,5 +53,19 @@ public class Booking {
 
     public void setDuration(String duration) {
         this.duration = duration;
+    }
+
+    public List<WashingAssistant> getWashingAssistantList() {
+        return washingAssistantList;
+    }
+
+    public void setWashingAssistantList(List<WashingAssistant> washingAssistantList) {
+        this.washingAssistantList = washingAssistantList;
+    }
+
+    //TODO Fix this method
+    public void addWashingAssistant(WashingAssistant washingAssistant){
+        this.washingAssistantList.add(washingAssistant);
+        washingAssistant.getBookingList().add(this);
     }
 }

@@ -1,6 +1,9 @@
 package entities;
 
 import javax.persistence.*;
+import java.awt.print.Book;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name = "washing_assistant")
@@ -17,6 +20,12 @@ public class WashingAssistant {
     private String yearsOfExperience;
     @Column(name="price_pr_hour")
     private String pricePrHour;
+
+    @JoinTable(name = "washing_assistant_booking", joinColumns = {
+            @JoinColumn(name = "washing_assistant_id", referencedColumnName = "id")}, inverseJoinColumns = {
+            @JoinColumn(name = "booking_id", referencedColumnName = "id")})
+    @ManyToMany
+    private List<Booking> bookingList = new ArrayList<>();
 
     public WashingAssistant() {
     }
@@ -66,5 +75,17 @@ public class WashingAssistant {
 
     public void setPricePrHour(String pricePrHour) {
         this.pricePrHour = pricePrHour;
+    }
+
+    public List<Booking> getBookingList() {
+        return bookingList;
+    }
+
+    public void setBookingList(List<Booking> bookingList) {
+        this.bookingList = bookingList;
+    }
+
+    public void addBooking(Booking booking){
+        bookingList.add(booking);
     }
 }

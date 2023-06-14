@@ -10,10 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a6e78ab-3bb2-4f4e-a329-820c81f3d4f8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/target/classes/entities/Booking.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/entities/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/entities/WashingAssistant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f7782470-c80a-4b43-80dd-d591f7e9d095.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f7782470-c80a-4b43-80dd-d591f7e9d095.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entities/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Booking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entities/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entities/WashingAssistant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/WashingAssistant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classpath.index" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +87,7 @@
       <recent name="$PROJECT_DIR$/.github" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FacadeExampleTest">
+  <component name="RunManager" selected="Application.SetupTestUsers">
     <configuration name="Populator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="facades.Populator" />
       <module name="dat3_ca2" />
@@ -232,8 +238,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FacadeExampleTest" />
         <item itemvalue="Application.SetupTestUsers" />
+        <item itemvalue="JUnit.FacadeExampleTest" />
         <item itemvalue="Application.Populator" />
         <item itemvalue="HTTP Request.rest | #1" />
       </list>
@@ -249,7 +255,7 @@
       <updated>1686393357787</updated>
       <workItem from="1686393361359" duration="3353000" />
       <workItem from="1686650013852" duration="3022000" />
-      <workItem from="1686722374855" duration="1138000" />
+      <workItem from="1686722374855" duration="2682000" />
     </task>
     <servers />
   </component>

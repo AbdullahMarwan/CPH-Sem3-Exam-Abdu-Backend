@@ -1,6 +1,9 @@
 package entities;
 
 import javax.persistence.*;
+import java.awt.print.Book;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name = "car")
@@ -18,6 +21,9 @@ public class Car {
     private String make;
     @Column(name="year")
     private String year;
+
+    @OneToMany(mappedBy = "car")
+    private List<Booking> bookingList = new ArrayList<>();
 
     public Car() {
     }
