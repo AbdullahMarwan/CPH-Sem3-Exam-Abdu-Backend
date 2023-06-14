@@ -72,7 +72,6 @@ public class BookingFacade {
         return BookingDTO.getDTOs(bookings);
     }
 
-
     //Remove booking by id
     public BookingDTO removeBooking(Long id) {
         EntityManager em = emf.createEntityManager();

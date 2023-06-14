@@ -29,9 +29,14 @@ public class BookingResource {
     @Produces("application/json")
     @Path("/{user_name}")
     public String getByUsername(@PathParam("user_name") String user_name) throws EntityNotFoundException {
-        //BookingDTO b = FACADE.getBookingListByUsername(user_name);
-        //return Response.ok().entity(GSON.toJson(b)).build();
         return GSON.toJson(FACADE.getBookingListByUsername(user_name));
+    }
+
+    @DELETE
+    @Produces("application/json")
+    @Path("{id}")
+    public String removeBooking(@PathParam("id") int id) throws EntityNotFoundException {
+        return GSON.toJson(FACADE.removeBooking((long) id));
     }
 
     @POST
