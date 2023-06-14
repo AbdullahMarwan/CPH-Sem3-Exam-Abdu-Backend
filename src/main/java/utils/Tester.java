@@ -13,8 +13,8 @@ public class Tester {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("pu");
         EntityManager em = emf.createEntityManager();
 
-        User user1 = new User("NewUser", "test");
-        User user2 = new User("NewAdmin", "test");
+        User user1 = new User("NewUser", "test123");
+        User user2 = new User("NewAdmin", "test123");
 
 //        Role userRole = new Role("user");
 //        Role adminRole = new Role("admin");

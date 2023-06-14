@@ -34,6 +34,10 @@ public class Booking {
     @JoinColumn(name = "car_id")
     private Car car;
 
+    @ManyToOne
+    @JoinColumn(name = "user_name")
+    private User user;
+
     public Booking(String dateAndTime, String duration) {
         this.dateAndTime = dateAndTime;
         this.duration = duration;

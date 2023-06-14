@@ -56,21 +56,22 @@ public class BookingFacade {
         return BookingDTO.getDTOs(bookings);
     }
 
-    /*
-    //Get bookingList by id
+
+    //Get bookingList by user_nameD
     public List<BookingDTO> getBookingListByUsername(String user_name) {
         EntityManager em = emf.createEntityManager();
         List<Booking> bookings;
         try {
-            bookings = em.createQuery("SELECT b FROM Booking b where b.user_name = :user_name", Booking.class).getResultList();
-            //bookings = em.createQuery("SELECT b FROM Booking b where b.user_name = :user_name", Booking.class).getResultList();
+            TypedQuery<Booking> query = em.createQuery("SELECT b FROM Booking b where b.user.userName=:user_name", Booking.class);
+            query.setParameter("user_name", user_name);
+            bookings = query.getResultList();
+
         } finally {
             em.close();
         }
         return BookingDTO.getDTOs(bookings);
     }
 
-     */
 
     //Remove booking by id
     public BookingDTO removeBooking(Long id) {

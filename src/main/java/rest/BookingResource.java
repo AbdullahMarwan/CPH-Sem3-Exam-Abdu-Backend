@@ -25,6 +25,15 @@ public class BookingResource {
         return GSON.toJson(FACADE.getBookings());
     }
 
+    @GET
+    @Produces("application/json")
+    @Path("/{user_name}")
+    public String getByUsername(@PathParam("user_name") String user_name) throws EntityNotFoundException {
+        //BookingDTO b = FACADE.getBookingListByUsername(user_name);
+        //return Response.ok().entity(GSON.toJson(b)).build();
+        return GSON.toJson(FACADE.getBookingListByUsername(user_name));
+    }
+
     @POST
     @Produces("application/json")
     public String createBooking(String booking) {
@@ -32,17 +41,6 @@ public class BookingResource {
         BookingDTO returnedDTO = FACADE.createBooking(bookingDTO);
         return GSON.toJson(returnedDTO);
     }
-
-    /*
-    @GET
-    @Path("/{id}")
-    @Produces({MediaType.APPLICATION_JSON})
-    public Response getById(@PathParam("id") int id) throws EntityNotFoundException {
-        BookingDTO b = FACADE.getById(id);
-        return Response.ok().entity(GSON.toJson(b)).build();
-    }
-    
-     */
 
     @PUT
     @Produces("application/json")

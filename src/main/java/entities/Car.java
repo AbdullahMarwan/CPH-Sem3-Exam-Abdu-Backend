@@ -35,6 +35,9 @@ public class Car {
     @OneToMany(mappedBy = "car")
     private List<Booking> bookingList = new ArrayList<>();
 
+    @OneToOne(mappedBy = "car")
+    private User user;
+
     public Car(String registrationNumber, String brand, String make, String year) {
         this.registrationNumber = registrationNumber;
         this.brand = brand;
