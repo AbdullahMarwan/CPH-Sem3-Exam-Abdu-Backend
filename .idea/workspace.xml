@@ -10,12 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a6e78ab-3bb2-4f4e-a329-820c81f3d4f8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/facades/UserFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facades/UserFacade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/Booking.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/Booking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/WashingAssistant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/WashingAssistant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/facades/WashingAssistantFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facades/WashingAssistantFacade.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,8 +79,24 @@
       <recent name="$PROJECT_DIR$/.github/workflows" />
       <recent name="$PROJECT_DIR$/.github" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="facades" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.WashingAssistantFacade">
+  <component name="RunManager" selected="Application.BookingFacade">
+    <configuration name="BookingFacade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="facades.BookingFacade" />
+      <module name="dat3_ca2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="facades.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Populator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="facades.Populator" />
       <module name="dat3_ca2" />
@@ -123,9 +135,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="rest | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/rest.http" requestIdentifier="#1" runType="Run single request">
-      <method v="2" />
     </configuration>
     <configuration name="FacadeExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dat3_ca2" />
@@ -240,20 +249,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.BookingFacade" />
       <item itemvalue="Application.WashingAssistantFacade" />
       <item itemvalue="Application.Populator" />
       <item itemvalue="Application.SetupTestUsers" />
-      <item itemvalue="HTTP Request.rest | #1" />
       <item itemvalue="JUnit.FacadeExampleTest" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.67" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BookingFacade" />
         <item itemvalue="Application.WashingAssistantFacade" />
         <item itemvalue="Application.SetupTestUsers" />
         <item itemvalue="JUnit.FacadeExampleTest" />
         <item itemvalue="Application.Populator" />
-        <item itemvalue="HTTP Request.rest | #1" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +277,7 @@
       <workItem from="1686393361359" duration="3353000" />
       <workItem from="1686650013852" duration="3022000" />
       <workItem from="1686722374855" duration="2682000" />
-      <workItem from="1686725392532" duration="3869000" />
+      <workItem from="1686725392532" duration="5171000" />
     </task>
     <servers />
   </component>

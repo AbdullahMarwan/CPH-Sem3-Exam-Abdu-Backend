@@ -44,7 +44,7 @@ public class WashingAssistantFacade {
         EntityManager em = emf.createEntityManager();
         List<WashingAssistant> washingAssistants;
         try {
-            washingAssistants = em.createQuery("SELECT o FROM WashingAssistant o", WashingAssistant.class).getResultList();
+            washingAssistants = em.createQuery("SELECT w FROM WashingAssistant w", WashingAssistant.class).getResultList();
         } finally {
             em.close();
         }
@@ -96,9 +96,14 @@ public class WashingAssistantFacade {
         return new WashingAssistantDTO(washingAssistant);
     }
 
+    //Method Tester
     public static void main(String[] args) {
         WashingAssistantFacade washingAssistantFacade = getWashingAssistantFacade(EMF_Creator.createEntityManagerFactory());
-        washingAssistantFacade.editWashingAssistant(new WashingAssistantDTO(5L, "Bob", "English", "2", "10"));
+        //Edit method works (need to input correct id of the WashingAssistant I want to change)
+        washingAssistantFacade.editWashingAssistant(new WashingAssistantDTO(1L, "Bobby", "English", "2", "10"));
+
+        //Create method works
+        washingAssistantFacade.createWashingAssistant(new WashingAssistantDTO(5L, "Bob", "English", "2", "10"));
     }
 
 }
