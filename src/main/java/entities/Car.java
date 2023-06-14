@@ -20,7 +20,6 @@ public class Car {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
     private Long id;
-
     @Column(name="registration_number")
     private String registrationNumber;
     @Column(name="brand")
