@@ -10,6 +10,7 @@ import javax.persistence.EntityManagerFactory;
 import javax.ws.rs.*;
 import javax.ws.rs.core.Response;
 
+@Path("booking")
 public class BookingResource {
     private static final EntityManagerFactory EMF = EMF_Creator.createEntityManagerFactory();
     private static final BookingFacade FACADE = BookingFacade.getBookingFacade(EMF);
@@ -18,7 +19,7 @@ public class BookingResource {
     @GET
     @Produces("application/json")
     @Path("all")
-    public String getAllCars() {
+    public String getAllBookings() {
         return GSON.toJson(FACADE.getBookings());
     }
 
