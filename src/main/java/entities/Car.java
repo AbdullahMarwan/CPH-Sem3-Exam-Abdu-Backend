@@ -1,9 +1,17 @@
 package entities;
 
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
 import javax.persistence.*;
 import java.awt.print.Book;
 import java.util.ArrayList;
 import java.util.List;
+
+@Getter
+@Setter
+@NoArgsConstructor
 
 @Entity
 @Table(name = "car")
@@ -25,53 +33,10 @@ public class Car {
     @OneToMany(mappedBy = "car")
     private List<Booking> bookingList = new ArrayList<>();
 
-    public Car() {
-    }
-
     public Car(String registrationNumber, String brand, String make, String year) {
         this.registrationNumber = registrationNumber;
         this.brand = brand;
         this.make = make;
-        this.year = year;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getRegistrationNumber() {
-        return registrationNumber;
-    }
-
-    public void setRegistrationNumber(String registrationNumber) {
-        this.registrationNumber = registrationNumber;
-    }
-
-    public String getBrand() {
-        return brand;
-    }
-
-    public void setBrand(String brand) {
-        this.brand = brand;
-    }
-
-    public String getMake() {
-        return make;
-    }
-
-    public void setMake(String make) {
-        this.make = make;
-    }
-
-    public String getYear() {
-        return year;
-    }
-
-    public void setYear(String year) {
         this.year = year;
     }
 }

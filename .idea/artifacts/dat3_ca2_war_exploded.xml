@@ -71,6 +71,7 @@
           <element id="library" level="project" name="Maven: junit:junit:3.8.1" />
           <element id="library" level="project" name="Maven: classworlds:classworlds:1.1-alpha-2" />
           <element id="library" level="project" name="Maven: org.codehaus.plexus:plexus-utils:3.0.22" />
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.18.20" />
         </element>
       </element>
       <element id="directory" name="META-INF">

@@ -13,7 +13,15 @@ import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import org.mindrot.jbcrypt.BCrypt;
+
+@Getter
+@Setter
+@NoArgsConstructor
 
 @Entity
 @Table(name = "users")
@@ -47,8 +55,6 @@ public class User implements Serializable {
     return rolesAsStrings;
   }
 
-  public User() {}
-
   //TODO Change when password is hashed
    public boolean verifyPassword(String pw){
     return BCrypt.checkpw(pw, userPass);
@@ -58,7 +64,6 @@ public class User implements Serializable {
     this.userName = userName;
     this.userPass = BCrypt.hashpw(userPass, BCrypt.gensalt());
   }
-
 
   public String getUserName() {
     return userName;

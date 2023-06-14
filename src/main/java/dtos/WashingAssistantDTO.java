@@ -1,10 +1,19 @@
 package dtos;
 
 import entities.WashingAssistant;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
 
 import javax.persistence.Column;
 import java.util.ArrayList;
 import java.util.List;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@ToString
 
 public class WashingAssistantDTO {
     private Long id;

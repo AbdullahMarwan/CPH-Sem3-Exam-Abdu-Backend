@@ -1,9 +1,17 @@
 package entities;
 
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
 import javax.persistence.*;
 import java.awt.print.Book;
 import java.util.ArrayList;
 import java.util.List;
+
+@Getter
+@Setter
+@NoArgsConstructor
 
 @Entity
 @Table(name = "washing_assistant")
@@ -27,62 +35,11 @@ public class WashingAssistant {
     @ManyToMany
     private List<Booking> bookingList = new ArrayList<>();
 
-    public WashingAssistant() {
-    }
-
     public WashingAssistant(String name, String primaryLanguage, String yearsOfExperience, String pricePrHour) {
         this.name = name;
         this.primaryLanguage = primaryLanguage;
         this.yearsOfExperience = yearsOfExperience;
         this.pricePrHour = pricePrHour;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getPrimaryLanguage() {
-        return primaryLanguage;
-    }
-
-    public void setPrimaryLanguage(String primaryLanguage) {
-        this.primaryLanguage = primaryLanguage;
-    }
-
-    public String getYearsOfExperience() {
-        return yearsOfExperience;
-    }
-
-    public void setYearsOfExperience(String yearsOfExperience) {
-        this.yearsOfExperience = yearsOfExperience;
-    }
-
-    public String getPricePrHour() {
-        return pricePrHour;
-    }
-
-    public void setPricePrHour(String pricePrHour) {
-        this.pricePrHour = pricePrHour;
-    }
-
-    public List<Booking> getBookingList() {
-        return bookingList;
-    }
-
-    public void setBookingList(List<Booking> bookingList) {
-        this.bookingList = bookingList;
     }
 
     public void addBooking(Booking booking){
