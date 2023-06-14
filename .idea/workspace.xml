@@ -12,15 +12,24 @@
     <list default="true" id="1a6e78ab-3bb2-4f4e-a329-820c81f3d4f8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rest/demo.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/demo.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest/BookingResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/BookingResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest/WashingAssistantResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/WashingAssistantResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/facades/WashingAssistantFacadeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/facades/WashingAssistantFacadeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classpath.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rest/ApplicationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rest/ApplicationConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rest/BookingResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rest/BookingResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rest/WashingAssistantResource$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rest/WashingAssistantResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rest/WashingAssistantResource.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/entities/Booking.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/entities/Booking.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/entities/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/entities/Car.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/entities/WashingAssistant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/entities/WashingAssistant.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/facades/WashingAssistantFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/facades/WashingAssistantFacade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/rest/ApplicationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/rest/ApplicationConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/rest/BookingResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/rest/BookingResource.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/rest/CarResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/rest/CarResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/rest/WashingAssistantResource$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/rest/WashingAssistantResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/dat3_sem3exam-1.0.0/WEB-INF/classes/rest/WashingAssistantResource.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/classpath.index" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,27 +74,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/utils" />
@@ -103,23 +112,11 @@
     <configuration name="demo | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/java/rest/demo.http" index="2" requestIdentifier="#2" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="rest | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/rest.http" requestIdentifier="#1" runType="Run single request">
+    <configuration name="demo | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/java/rest/demo.http" index="3" requestIdentifier="#3" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="WashingAssistantFacadeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dat3_ca2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="facades.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="facades" />
-      <option name="MAIN_CLASS_NAME" value="facades.WashingAssistantFacadeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="rest | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/rest.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
     </configuration>
     <configuration name="WashingAssistantFacadeTest.getById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dat3_ca2" />
@@ -236,20 +233,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="HTTP Request.demo | #3" />
       <item itemvalue="HTTP Request.rest | #1" />
       <item itemvalue="HTTP Request.demo | #1" />
       <item itemvalue="HTTP Request.demo | #2" />
-      <item itemvalue="JUnit.WashingAssistantFacadeTest" />
       <item itemvalue="JUnit.WashingAssistantFacadeTest.getById" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.67" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.rest | #1" />
         <item itemvalue="HTTP Request.demo | #2" />
+        <item itemvalue="HTTP Request.demo | #3" />
         <item itemvalue="HTTP Request.demo | #1" />
+        <item itemvalue="HTTP Request.rest | #1" />
         <item itemvalue="JUnit.WashingAssistantFacadeTest.getById" />
-        <item itemvalue="JUnit.WashingAssistantFacadeTest" />
       </list>
     </recent_temporary>
   </component>

@@ -1,3 +1,109 @@
+GET http://localhost:8080/exam_test/api/booking/all
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-14T152700.200.json
+
+###
+
+POST http://localhost:8080/exam_test/api/login
+Content-Type: application/json
+Content-Length: 50
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "admin",
+  "password": "test123"
+}
+
+<> 2023-06-14T152657.200.json
+
+###
+
+GET http://localhost:8080/exam_test/api/info
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-14T152654.200.json
+
+###
+
+GET http://localhost:8080/exam_test/api/booking/all
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-14T152439.404.json
+
+###
+
+GET http://localhost:8080/exam_test/api/booking/all
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-14T152438.404.json
+
+###
+
+GET http://localhost:8080/exam_test/api/booking/all
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-14T152436.404.json
+
+###
+
+GET http://localhost:8080/exam_test/api/booking/all
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-14T152351.404.json
+
+###
+
+GET http://localhost:8080/exam_test/api/booking/all
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-14T152350.404.json
+
+###
+
+GET http://localhost:8080/exam_test/api/info
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-14T152347.200.json
+
+###
+
+GET http://localhost:8080/exam_test/api/booking/all
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-14T152322.404.json
+
+###
+
+GET http://localhost:8080/exam_test/api/booking/all
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-14T152237.404.json
+
+###
+
 POST http://localhost:8080/devops_starter_war_exploded/api/login
 Content-Length: 43
 Content-Type: */*; charset=UTF-8

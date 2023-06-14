@@ -21,26 +21,12 @@ public class WashingAssistantResource {
     private static final WashingAssistantFacade FACADE = WashingAssistantFacade.getWashingAssistantFacade(EMF);
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
 
-    //TODO Return ALL WashingAssistants from DTO list (this might return list)
-    @GET
-    @Produces("application/json")
-    @Path("all")
-    public List<WashingAssistant> getAllWashingAssistants() {
-        Type listOfMyClassObject = new TypeToken<List<WashingAssistant>>() {}.getType();
-
-        List<WashingAssistant> outputList = GSON.fromJson((Reader) FACADE.getWashingAssistants(), listOfMyClassObject);
-        return outputList;
-    }
-
-    //TODO Return ALL WashingAssistants from DTO list (this might return only string)
-    /*
     @GET
     @Produces("application/json")
     @Path("all")
     public String getAllWashingAssistants() {
         return GSON.toJson(FACADE.getWashingAssistants());
     }
-     */
 
     @POST
     @Produces("application/json")
