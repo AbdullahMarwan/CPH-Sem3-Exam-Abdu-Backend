@@ -38,6 +38,8 @@ public class WashingAssistantDTO {
         this.pricePrHour = pricePrHour;
     }
 
+
+
     public static List<WashingAssistantDTO> getDTOs(List<WashingAssistant> washingAssistantList) {
         List<WashingAssistantDTO> washingAssistantDTOs = new ArrayList<>();
         washingAssistantList.forEach(washingAssistant -> washingAssistantDTOs.add(new WashingAssistantDTO(washingAssistant)));

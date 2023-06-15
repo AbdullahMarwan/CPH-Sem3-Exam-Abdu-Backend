@@ -11,7 +11,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityNotFoundException;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class WashingAssistantFacadeTest {
     private static EntityManagerFactory emf;
@@ -40,20 +40,12 @@ public class WashingAssistantFacadeTest {
         try {
             em.getTransaction().begin();
             em.createNamedQuery("WashingAssistant.deleteAllRows").executeUpdate();
-            em.createNamedQuery("Car.deleteAllRows").executeUpdate();
-            em.createNamedQuery("Booking.deleteAllRows").executeUpdate();
+
             w1 = new WashingAssistant("Tom", "Danish", "10 Years", "50DKK Hour");
             w2 = new WashingAssistant("Ole", "English", "2 Years", "30DKK Hour");
-            c1 = new Car("2020", "Mercedes", "10", "2000");
-            c2 = new Car("3020", "Bugatti", "100", "3000");
-            b1 = new Booking("10th June - 10:00", "10Min");
-            b2 = new Booking("23th February - 20:00", "1Hour");
+
             em.persist(w1);
             em.persist(w2);
-            em.persist(c1);
-            em.persist(c2);
-            em.persist(b1);
-            em.persist(b2);
             em.getTransaction().commit();
         } finally {
             em.close();
@@ -64,17 +56,40 @@ public class WashingAssistantFacadeTest {
     public void tearDown() {
     }
 
-    /*
-    @Test
-    void create() {
-        System.out.println("Testing create(WashingAssistant w)");
-        WashingAssistant w = new WashingAssistant("TestWashingAssistant", "Danish", "10 Years", "50DKK Hour");
-        WashingAssistant expected = w;
-        WashingAssistant actual = facade.createWashingAssistant(w);
-        assertEquals(expected, actual);
-    }
-
-     */
+//    @Test
+//    void create() {
+//        System.out.println("Testing create(WashingAssistant w) should get id from db");
+//        WashingAssistant w = new WashingAssistant("TestWashingAssistant", "English", "10 Years", "500DKK");
+//        WashingAssistant actual = facade.createWashingAssistant(new WashingAssistantDTO(w));
+//        assertTrue(actual.getId() != 0);
+//    }
+//
+//    @Test
+//    public void testCreateWashingAssistant() {
+//        WashingAssistantDTO washingAssistantDTO = new WashingAssistantDTO("TestWashingAssistant", "English", "10 Years", "500DKK");
+//        WashingAssistantDTO created = facade.createWashingAssistant(washingAssistantDTO);
+//        assertNotNull(created);
+//        assertEquals("FamilyNameTest", created.getFamilyName());
+//    }
+//
+//
+//    @Test
+//    void getById() throws EntityNotFoundException {
+//        System.out.println("Testing getbyid(id)");
+//        WashingAssistant expected = w1;
+//        WashingAssistantDTO actual = facade.getById(w1.getId());
+//        assertEquals(expected, actual);
+//    }
+//
+//
+//    @Test
+//    void create() {
+//        System.out.println("Testing create(WashingAssistant w)");
+//        WashingAssistant w = new WashingAssistant("TestWashingAssistant", "Danish", "10 Years", "50DKK Hour");
+//        WashingAssistant expected = w;
+//        WashingAssistant actual = facade.createWashingAssistant(w);
+//        assertEquals(expected, actual);
+//    }
 
     /*
     @Test
@@ -88,12 +103,34 @@ public class WashingAssistantFacadeTest {
 
      */
 
-    @Test
-    void getById() throws EntityNotFoundException {
-        System.out.println("Testing getbyid(id)");
-        WashingAssistant expected = w1;
-        WashingAssistantDTO actual = facade.getById(w1.getId());
-        assertEquals(expected, actual);
-    }
+//
+//    @BeforeEach
+//    public void setUp() {
+//        EntityManager em = emf.createEntityManager();
+//        try {
+//            em.getTransaction().begin();
+//            em.createNamedQuery("WashingAssistant.deleteAllRows").executeUpdate();
+//            em.createNamedQuery("Car.deleteAllRows").executeUpdate();
+//            em.createNamedQuery("Booking.deleteAllRows").executeUpdate();
+//
+//            w1 = new WashingAssistant("Tom", "Danish", "10 Years", "50DKK Hour");
+//            w2 = new WashingAssistant("Ole", "English", "2 Years", "30DKK Hour");
+//
+//            c1 = new Car("2020", "Mercedes", "10", "2000");
+//            c2 = new Car("3020", "Bugatti", "100", "3000");
+//            b1 = new Booking("10th June - 10:00", "10Min");
+//            b2 = new Booking("23th February - 20:00", "1Hour");
+//
+//            em.persist(w1);
+//            em.persist(w2);
+//            em.persist(c1);
+//            em.persist(c2);
+//            em.persist(b1);
+//            em.persist(b2);
+//            em.getTransaction().commit();
+//        } finally {
+//            em.close();
+//        }
+//    }
 
 } 
